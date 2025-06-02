@@ -10,7 +10,7 @@ function NavBar({ setPage }) {
 
   return (
     <header className="header">
-      <div className="logo">MySite</div>
+      <div className="logo">MyWebsite</div>
       <nav>
         <ul className={`nav-links ${open ? 'active' : ''}`}>
           <li><button onClick={() => handleClick('home')}>Home</button></li>
