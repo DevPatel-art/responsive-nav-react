@@ -1,13 +1,22 @@
-# React + Vite
+# Responsive Navigation Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Design Choices
+- The layout includes a navigation menu for large screens and a hamburger menu for mobile.
+- The navigation links update the content on the page.
+- A basic UI with common contrast for readability.
 
-Currently, two official plugins are available:
+# Implementation
+- Built using React 
+- Navigation is handled using React.
+- The hamburger icon toggles the menu showing different options for the mobile view.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#  How to Run Locally
+1. Clone the repositery
+2. Install dependencies by running prompt "npm install"
+3. Run the website by writing prompt "npm run dev"
 
-## Expanding the ESLint configuration
+# Testing the menu 
+To test the responsive navigation menu when the website is running press right click on the browser and go to inspect then do to device emulation and change the width below 768px for mobile view and check the hamburger icon.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# first-assignment" 
+# UI/UX choices
+The website is not designed that much its pretty basic but will implement the design in next upcoming projects.
